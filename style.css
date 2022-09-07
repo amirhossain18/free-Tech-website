@@ -51,10 +51,26 @@ body {
     .companies{
         display:none ;
     }
-    .h5 {
-        font-size: 1.rem;
+    .h5, h5 {
+        font-size: 10px;
     }
     .tab-size{
         width:100%;
        
-    }}
+    }
+    .course{
+        margin: 1px;;
+    }
+    .ecplore {
+        margin: 5px;
+    }
+
+    .faq{
+        margin: 20px;
+    }
+
+    .mobile{
+        margin:2px;
+    }
+
+}
