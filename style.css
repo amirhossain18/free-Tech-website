@@ -2,15 +2,18 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  
   }
-.navber{
+  .green{
+    color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .ecplore{
+    background-color:#E7E9E8;
+  }
 
 
-    margin: 100px;
-    margin-top: 0px;
-    margin-bottom: 0;
-}
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:575px) and (max-width:991px) {
     .companies{
         display:none ;
     }
@@ -22,6 +25,7 @@ body {
        
     }
 
+   
 
 }
 
@@ -30,5 +34,27 @@ body {
         width: 100%;
         flex-direction: column;
     }
+    .course{
+        margin: 1px;;
+    }
+    .ecplore {
+        margin: 5px;
+    }
+
+    .faq{
+        margin: 20px;
+    }
 
 }
+
+@media screen and  (max-width:574px) {
+    .companies{
+        display:none ;
+    }
+    .h5 {
+        font-size: 1.rem;
+    }
+    .tab-size{
+        width:100%;
+       
+    }}
